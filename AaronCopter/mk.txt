@@ -1,0 +1,449 @@
+HAL_BOARD=HAL_BOARD_PX4 HAL_BOARD_SUBTYPE= TOOLCHAIN=NATIVE EXTRAFLAGS=-DGIT_VERSION="1ea1d998" -DNUTTX_GIT_VERSION="eba6b56f" -DPX4_GIT_VERSION="7dc8a205"
+building /home/aaron/GitHub/atradom/ardupilot/Build.AaronCopter/AaronCopter.cpp
+%% AaronCopter.cpp
+%% module_mk
+make[1]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware'
+%%%%
+%%%% Building px4io-v2_default in /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/
+%%%%
+%  PX4_BASE            = /home/aaron/GitHub/atradom/PX4Firmware/
+%  GIT_DESC            = 7dc8a2054438e6fd38f096c0dead3a30e02278a6
+%  CONFIG              = px4io-v2_default
+%  BOARD               = px4io-v2
+%  WORK_DIR            = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/
+%  NUTTX_EXPORT_DIR    = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/
+%  NUTTX_CONFIG_HEADER = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/nuttx/config.h
+make[2]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2/module.mk
+%  MODULE_NAME         = px4io-v2
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/module.mk
+%  MODULE_NAME         = stm32
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware/module.mk
+%  MODULE_NAME         = px4iofirmware
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware'
+LINK:    /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/firmware.elf
+BIN:     /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/firmware.bin
+%% Generating /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/firmware.px4
+make[2]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build'
+%% Copying /home/aaron/GitHub/atradom/PX4Firmware/Images/px4io-v2_default.px4
+make[1]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware'
+PX4IOv2 Firmware is in px4io-v2.bin
+%% px4-v2
+make[1]: Entering directory `/home/aaron/GitHub/atradom/ardupilot'
+%%%%
+%%%% Building px4io-v2_default in /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/
+%%%%
+%  PX4_BASE            = /home/aaron/GitHub/atradom/PX4Firmware/
+%  GIT_DESC            = 1ea1d9983d78f0773b3d2a66ed8d5c3823b6e51f
+%  CONFIG              = px4io-v2_default
+%  BOARD               = px4io-v2
+%  WORK_DIR            = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/
+%  NUTTX_EXPORT_DIR    = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/
+%  NUTTX_CONFIG_HEADER = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/nuttx/config.h
+make[2]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2/module.mk
+%  MODULE_NAME         = px4io-v2
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4io-v2'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/module.mk
+%  MODULE_NAME         = stm32
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware/module.mk
+%  MODULE_NAME         = px4iofirmware
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/px4iofirmware'
+LINK:    /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/firmware.elf
+BIN:     /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/firmware.bin
+%% Generating /home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build/firmware.px4
+make[2]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4io-v2_default.build'
+%% Copying /home/aaron/GitHub/atradom/PX4Firmware/Images/px4io-v2_default.px4
+%%%%
+%%%% Building px4fmu-v2_APM in /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/
+%%%%
+%  PX4_BASE            = /home/aaron/GitHub/atradom/PX4Firmware/
+%  GIT_DESC            = 1ea1d9983d78f0773b3d2a66ed8d5c3823b6e51f
+%  CONFIG              = px4fmu-v2_APM
+%  BOARD               = px4fmu-v2
+%  WORK_DIR            = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/
+%  NUTTX_EXPORT_DIR    = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/nuttx-export/
+%  NUTTX_CONFIG_HEADER = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/nuttx-export/include/nuttx/config.h
+make[2]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/ardupilot/module.mk
+%  MODULE_NAME         = ardupilot
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/ardupilot/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/ardupilot/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/ardupilot
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/ardupilot'
+CMD:     ArduPilot
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/ardupilot'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/airspeed/module.mk
+%  MODULE_NAME         = airspeed
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/airspeed/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/airspeed/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/airspeed
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/airspeed'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/airspeed'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/blinkm/module.mk
+%  MODULE_NAME         = blinkm
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/blinkm/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/blinkm/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/blinkm
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/blinkm'
+CMD:     blinkm
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/blinkm'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4fmu-v2/module.mk
+%  MODULE_NAME         = px4fmu-v2
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4fmu-v2/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4fmu-v2/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4fmu-v2
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4fmu-v2'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/boards/px4fmu-v2'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/device/module.mk
+%  MODULE_NAME         = device
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/device/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/device/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/device
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/device'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/device'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ets_airspeed/module.mk
+%  MODULE_NAME         = ets_airspeed
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ets_airspeed/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ets_airspeed/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ets_airspeed
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ets_airspeed'
+CMD:     ets_airspeed
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ets_airspeed'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/gps/module.mk
+%  MODULE_NAME         = gps
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/gps/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/gps/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/gps
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/gps'
+CMD:     gps
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/gps'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hil/module.mk
+%  MODULE_NAME         = hil
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hil/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hil/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hil
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hil'
+CMD:     hil
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hil'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hmc5883/module.mk
+%  MODULE_NAME         = hmc5883
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hmc5883/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hmc5883/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hmc5883
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hmc5883'
+CMD:     hmc5883
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/hmc5883'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/l3gd20/module.mk
+%  MODULE_NAME         = l3gd20
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/l3gd20/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/l3gd20/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/l3gd20
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/l3gd20'
+CMD:     l3gd20
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/l3gd20'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/led/module.mk
+%  MODULE_NAME         = led
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/led/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/led/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/led
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/led'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/led'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ll40ls/module.mk
+%  MODULE_NAME         = ll40ls
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ll40ls/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ll40ls/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ll40ls
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ll40ls'
+CMD:     ll40ls
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ll40ls'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/lsm303d/module.mk
+%  MODULE_NAME         = lsm303d
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/lsm303d/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/lsm303d/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/lsm303d
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/lsm303d'
+CMD:     lsm303d
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/lsm303d'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mb12xx/module.mk
+%  MODULE_NAME         = mb12xx
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mb12xx/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mb12xx/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mb12xx
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mb12xx'
+CMD:     mb12xx
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mb12xx'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/meas_airspeed/module.mk
+%  MODULE_NAME         = meas_airspeed
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/meas_airspeed/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/meas_airspeed/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/meas_airspeed
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/meas_airspeed'
+CMD:     meas_airspeed
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/meas_airspeed'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mkblctrl/module.mk
+%  MODULE_NAME         = mkblctrl
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mkblctrl/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mkblctrl/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mkblctrl
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mkblctrl'
+CMD:     mkblctrl
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mkblctrl'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mpu6000/module.mk
+%  MODULE_NAME         = mpu6000
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mpu6000/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mpu6000/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mpu6000
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mpu6000'
+CMD:     mpu6000
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/mpu6000'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ms5611/module.mk
+%  MODULE_NAME         = ms5611
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ms5611/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ms5611/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ms5611
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ms5611'
+CMD:     ms5611
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/ms5611'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4fmu/module.mk
+%  MODULE_NAME         = px4fmu
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4fmu/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4fmu/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4fmu
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4fmu'
+CMD:     fmu
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4fmu'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4io/module.mk
+%  MODULE_NAME         = px4io
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4io/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4io/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4io
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4io'
+CMD:     px4io
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/px4io'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/rgbled/module.mk
+%  MODULE_NAME         = rgbled
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/rgbled/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/rgbled/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/rgbled
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/rgbled'
+CMD:     rgbled
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/rgbled'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/module.mk
+%  MODULE_NAME         = stm32
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/adc/module.mk
+%  MODULE_NAME         = adc
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/adc/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/adc/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/adc
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/adc'
+CMD:     adc
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/adc'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/tone_alarm/module.mk
+%  MODULE_NAME         = tone_alarm
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/tone_alarm/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/tone_alarm/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/tone_alarm
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/tone_alarm'
+CMD:     tone_alarm
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/drivers/stm32/tone_alarm'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/lib/conversion/module.mk
+%  MODULE_NAME         = conversion
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/lib/conversion/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/lib/conversion/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/lib/conversion
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/lib/conversion'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/lib/conversion'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/lib/mathlib/math/filter/module.mk
+%  MODULE_NAME         = filter
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/lib/mathlib/math/filter/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/lib/mathlib/math/filter/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/lib/mathlib/math/filter
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/lib/mathlib/math/filter'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/lib/mathlib/math/filter'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomcrypt/module.mk
+%  MODULE_NAME         = libtomcrypt
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomcrypt/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomcrypt/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomcrypt
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomcrypt'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomcrypt'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomfastmath/module.mk
+%  MODULE_NAME         = libtomfastmath
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomfastmath/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomfastmath/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomfastmath
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomfastmath'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/libtomfastmath'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/module.mk
+%  MODULE_NAME         = systemlib
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/mixer/module.mk
+%  MODULE_NAME         = mixer
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/mixer/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/mixer/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/mixer
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/mixer'
+make[3]: Nothing to be done for `module'.
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/systemlib/mixer'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/uORB/module.mk
+%  MODULE_NAME         = uORB
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/modules/uORB/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/uORB/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/modules/uORB
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/uORB'
+CMD:     uorb
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/modules/uORB'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/auth/module.mk
+%  MODULE_NAME         = auth
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/auth/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/auth/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/auth
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/auth'
+CMD:     auth
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/auth'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/bl_update/module.mk
+%  MODULE_NAME         = bl_update
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/bl_update/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/bl_update/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/bl_update
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/bl_update'
+CMD:     bl_update
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/bl_update'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/boardinfo/module.mk
+%  MODULE_NAME         = boardinfo
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/boardinfo/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/boardinfo/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/boardinfo
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/boardinfo'
+CMD:     boardinfo
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/boardinfo'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mixer/module.mk
+%  MODULE_NAME         = mixer
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mixer/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mixer/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mixer
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mixer'
+CMD:     mixer
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mixer'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mtd/module.mk
+%  MODULE_NAME         = mtd
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mtd/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mtd/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mtd
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mtd'
+CMD:     mtd
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/mtd'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/nshterm/module.mk
+%  MODULE_NAME         = nshterm
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/nshterm/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/nshterm/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/nshterm
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/nshterm'
+CMD:     nshterm
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/nshterm'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/perf/module.mk
+%  MODULE_NAME         = perf
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/perf/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/perf/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/perf
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/perf'
+CMD:     perf
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/perf'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/pwm/module.mk
+%  MODULE_NAME         = pwm
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/pwm/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/pwm/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/pwm
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/pwm'
+CMD:     pwm
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/pwm'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/reboot/module.mk
+%  MODULE_NAME         = reboot
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/reboot/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/reboot/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/reboot
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/reboot'
+CMD:     reboot
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/reboot'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/tests/module.mk
+%  MODULE_NAME         = tests
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/tests/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/tests/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/tests
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/tests'
+CMD:     tests
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/tests'
+%% MODULE_MK           = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/top/module.mk
+%  MODULE_NAME         = top
+%  MODULE_SRC          = /home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/top/
+%  MODULE_OBJ          = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/top/module.pre.o
+%  MODULE_WORK_DIR     = /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build//home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/top
+make[3]: Entering directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/top'
+CMD:     top
+make[3]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/home/aaron/GitHub/atradom/PX4Firmware/src/systemcmds/top'
+CMDS:    /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/builtin_commands.c
+CC:      /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/builtin_commands.c
+Pruning ROMFS files.
+ROMFS:   romfs.img
+OBJ:     romfs.o
+CC:      romfs.o.c
+LINK:    /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/firmware.elf
+BIN:     /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/firmware.bin
+%% Generating /home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build/firmware.px4
+make[2]: Leaving directory `/home/aaron/GitHub/atradom/PX4Firmware/Build/px4fmu-v2_APM.build'
+%% Copying /home/aaron/GitHub/atradom/PX4Firmware/Images/px4fmu-v2_APM.px4
+make[1]: Leaving directory `/home/aaron/GitHub/atradom/ardupilot'
+PX4 AaronCopter Firmware is in AaronCopter-v2.px4
