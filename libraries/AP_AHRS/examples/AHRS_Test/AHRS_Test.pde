@@ -14,6 +14,12 @@
 #include <AP_ADC_AnalogSource.h>
 #include <AP_Baro.h>            // ArduPilot Mega Barometer Library
 #include <AP_GPS.h>
+
+// *atr* added for pixhawk
+#include <AP_NavEKF.h>
+#include <AP_HAL_PX4.h>
+#include <AP_Scheduler.h>       // main loop scheduler
+
 #include <AP_AHRS.h>
 #include <AP_Compass.h>
 #include <AP_Declination.h>
@@ -33,26 +39,47 @@
 #include <AP_HAL_AVR_SITL.h>
 #include <AP_HAL_Empty.h>
 
+
 const AP_HAL::HAL& hal = AP_HAL_BOARD_DRIVER;
 
-// INS and Baro declaration
-#if CONFIG_HAL_BOARD == HAL_BOARD_APM2
-AP_InertialSensor_MPU6000 ins;
-AP_Baro_MS5611 baro(&AP_Baro_MS5611::spi);
-#elif CONFIG_HAL_BOARD == HAL_BOARD_APM1
-AP_ADC_ADS7844 adc;
-AP_InertialSensor_Oilpan ins( &adc );
-AP_Baro_BMP085 baro;
-#else
-AP_InertialSensor_HIL ins;
-#endif
 
-AP_Compass_HMC5843 compass;
+// *atr* INS for Pixhawk
+AP_InertialSensor_PX4 ins;
+
+// *atr Baro for Pixhawk
+static AP_Baro_PX4 baro;
+
+// INS and Baro declaration
+//#if CONFIG_HAL_BOARD == HAL_BOARD_APM2
+//AP_InertialSensor_MPU6000 ins;
+//AP_Baro_MS5611 baro(&AP_Baro_MS5611::spi);
+//#elif CONFIG_HAL_BOARD == HAL_BOARD_APM1
+//AP_ADC_ADS7844 adc;
+//AP_InertialSensor_Oilpan ins( &adc );
+//AP_Baro_BMP085 baro;
+//#else
+//AP_InertialSensor_HIL ins;
+//#endif
+
+//AP_Compass_HMC5843 compass;
+
+// *atr* compass for Pixhawk
+static AP_Compass_PX4 compass;
 
 AP_GPS gps;
 
 // choose which AHRS system to use
-AP_AHRS_DCM  ahrs(ins, baro, gps);
+//AP_AHRS_DCM  ahrs(ins, baro, gps);
+
+// *atr* Inertial Navigation EKF
+#if AP_AHRS_NAVEKF_AVAILABLE
+AP_AHRS_NavEKF ahrs(ins, baro, gps);
+#else
+AP_AHRS_DCM ahrs(ins, baro, gps);
+#endif
+
+
+
 
 AP_Baro_HIL barometer;
 
@@ -104,6 +131,7 @@ void loop(void)
         last_compass = now;
 #if WITH_GPS
         g_gps->update();
+        hal.console->printf_P("gps.update\n");
 #endif
     }
 
